@@ -12,7 +12,7 @@ from sklearn.model_selection import test_train_split
 from sklearn.linear_model import LinearRegression
 
 
-data_1=pd.read_csv(r"/home/aman/Downloads/Training_dataset.csv")
+data_1=pd.read_csv(r"C:/Users/Hemil/OneDrive/Desktop/Hand-Gesture-Motor-Control/Training_dataset.csv")
 x=data_1.iloc[:,0].values
 y=data_1.iloc[:,1].values
 
